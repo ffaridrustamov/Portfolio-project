@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 1350px;
+}
+header{
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0,0,0,.1);
+    /* height: 40px;; */
+
+}
+header .box{
+    padding: 50px 10px;
+    background-color: #acacb46f;
+    position: absolute;
+    top:50px ;
+    right: 400px;
+    border-radius: 20px;
+    display: none;
+    
+
+}
+header .box p{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0px 12px;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px 12px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#27272A;
+    transition: ease-in-out 0.5s;
+
+}
+.info{
+    padding-left: 150px;
+    padding-top: 100px;
+}
+.info .title{
+    width: 700px;
+}
+.info .title span{
+    font-size: 45px;
+    font-weight: 700;
+    color: #27272A;
+
+
+}
+.info .text{
+    width: 730px;
+    margin-top: 30px;
+}
+.info .text p{
+    font-size: 16px;
+    color: #65656d;
+    word-spacing: 1px;
+}
+.projects .container{
+    padding-left: 70px;
+    flex-wrap: wrap;
+}
+.card{
+    border: none;
+    margin-top: 100px;
+    width: 300px;
+    padding: 30px 25px;
+}
+.card .icon a{
+    text-decoration: none;
+    /* color: #f3e272; */
+    color: #27272a3b;
+}
+.card .icon i{
+    font-size: 40px;
+}
+.card .project-name span{
+    font-size: 17px;
+    font-weight: 650;
+    color: #27272A;
+
+}
+.card .text p{
+    color: #27272aa1;
+}
+.card .link i{
+    color: #27272a94;
+}
+.card .link a{
+    padding: 0px 20px 0px 0px;
+    text-decoration: none;
+    color: #27272a94;
+    
+
+}
+.card .link p{
+    color: #27272aad;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 2px;
+}
+.card:hover{
+    background-color: #e4e4e74a;
+    border-radius: 20px;
+    
+}
+footer{
+    padding: 20px 48px;
+    margin-top: 50px;
+    border-top: 1px solid #65656d;
+
+}
+footer .container{
+    margin-left: 50px;
+}
+footer nav a{
+    padding: 0px 20px;
+    text-decoration: none;
+    color: #65656d;
+    transition: ease-in-out 0.2s;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+footer nav a:hover{
+    color: #14b8a6;
+
+}

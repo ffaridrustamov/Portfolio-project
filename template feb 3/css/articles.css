@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 800px;
+}
+header{
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0,0,0,.1);
+    /* height: 40px;; */
+
+}
+header .box{
+    padding: 50px 10px;
+    background-color: #acacb46f;
+    position: absolute;
+    top:50px ;
+    right: 400px;
+    border-radius: 20px;
+    display: none;
+    
+
+}
+header .box p{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0px 12px;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px 12px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#27272A;
+    transition: ease-in-out 0.5s;
+
+}
+.content .container{
+    padding-top: 70px;
+    padding-left: 100px;
+}
+.title{
+    width: 800px;
+}
+.title span{
+    font-size: 45px;
+    font-weight: 750;
+    color: #27272A;
+    word-spacing: 0.1px;
+}
+.text{
+    margin-top: 25px;
+    width: 720px;
+}
+.text p{
+    font-size: 16px;
+    color: #65656d;
+}
+.article .right{
+    margin-left: 150px;
+    width: 800px;
+    height: 200px;
+}
+.article .right:hover{
+    background-color: #65656d17;
+    width: 800px;
+    height: 200px;
+    border-radius: 20px;
+}
+.articles .container{
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.article .left{
+    border-left:2px solid #65656d33 ;
+    height: 200px;
+}
+.article .left p{
+    padding-left: 30px;
+    padding-top: 30px;
+    color: #acacb4;
+}
+.right .title span{
+    font-size: 16px;
+    color: black;
+
+}
+.right .read-btn a{
+    text-decoration: none;
+    color: #14b8a6;
+}
+footer{
+    padding: 20px 48px;
+    margin-top: 50px;
+    border-top: 1px solid #65656d;
+
+}
+footer .container{
+    margin-left: 50px;
+}
+footer nav a{
+    padding: 0px 20px;
+    text-decoration: none;
+    color: #65656d;
+    transition: ease-in-out 0.2s;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+footer nav a:hover{
+    color: #14b8a6;
+
+}

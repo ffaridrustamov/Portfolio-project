@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 800px;
+}
+header{
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0,0,0,.1);
+    /* height: 40px;; */
+
+}
+header .box{
+    padding: 50px 10px;
+    background-color: #acacb46f;
+    position: absolute;
+    top:50px ;
+    right: 400px;
+    border-radius: 20px;
+    display: none;
+    
+
+}
+header .box p{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0px 12px;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px 12px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#27272A;
+    transition: ease-in-out 0.5s;
+
+}
+nav ul li a:hover{
+    color: #14b8a6;
+}
+.about .container{
+    padding: 0px 50px;
+}
+.about{
+    margin-top: 100px;
+
+}
+.about .title span{
+    font-size: 45px;
+    font-weight:700;
+}
+.about .text{
+    width: 520px;
+    margin-top: 30px;
+    letter-spacing: 0.4px;
+}
+.about .text p{
+    font-size: 16px;
+    color: #65656d;
+}
+.about .img{
+    margin-left: 100px;
+}
+.about .img img {
+    width: 400px;
+    rotate: 3deg;
+    border-radius: 40px;
+    
+}
+.soc-media .boxx{
+    width: 100px;
+    height: 10px;
+    margin-right: 100px;
+}
+.soc-media{
+    margin-top: 50px;
+    
+}
+.soc-media .box{
+    margin-top: 20px;
+}
+.soc-media .box  .icon{
+    text-decoration: none;
+    color: #65656d;
+    font-size: 16px;
+    font-weight: 600;
+}
+.soc-media .box .name{
+    font-size: 16px;
+    text-decoration: none;
+    color: #65656d;
+    font-weight: 600;
+    margin-left:15px ;
+    
+}
+footer{
+    padding: 35px 48px;
+    margin-top: 50px;
+    border-top: 1px solid #65656d;
+
+}
+footer .container{
+    margin-left: 50px;
+}
+footer nav a{
+    padding: 0px 20px;
+    text-decoration: none;
+    color: #65656d;
+    transition: ease-in-out 0.2s;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+footer nav a:hover{
+    color: #14b8a6;
+
+}

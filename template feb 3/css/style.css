@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 2200px;
+}
+/* --------------HEADER----------------------
+------------------HEADER----------------------
+-----------------HEADER------------------------
+-----------------HEADER------------------------ */
+header{
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0,0,0,.1);
+    /* height: 40px;; */
+
+}
+header .box{
+    padding: 50px 10px;
+    background-color: #acacb46f;
+    position: absolute;
+    top:50px ;
+    right: 400px;
+    border-radius: 20px;
+    display: none;
+    
+
+}
+header .box p{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0px 12px;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px 12px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#27272A;
+    transition: ease-in-out 0.5s;
+
+}
+nav ul li a:hover{
+    color: #14b8a6;
+}
+/* --------------HEADER====END----------------------
+------------------HEADER====END----------------------
+-----------------HEADER====END------------------------
+-----------------HEADER====END------------------------ */
+
+
+
+
+
+/* ----------------PORTFOLIO=SECTION----------------
+-------------------PORTFOLIO=SECTION-----------------
+-------------------PORTFOLIO=SECTION------------------
+-------------------PORTFOLIO=SECTION------------------ */
+
+.portfolio{
+    margin-top: 100px;
+
+}
+.portfolio .title{
+    width: 600px;
+
+}
+.portfolio span{
+    font-size: 45px;
+    font-weight: 700;
+
+}
+.portfolio .info{
+    width: 550px;
+    margin-top: 50px;
+}
+.portfolio p{
+    font-size: 16px;
+} 
+.portfolio .image{
+    width: 100%;
+    rotate: 5deg;
+    border-radius: 40px;
+}
+.portfolio .soc-media a{
+    text-decoration: none;
+    color: #65656d;
+    padding: 0px 10px 0px 0px;
+}
+.portfolio .soc-media a i{
+    font-size: 25px;
+}
+/* ----------------PORTFOLIO=SECTION==END----------------
+-------------------PORTFOLIO=SECTION==END-----------------
+-------------------PORTFOLIO=SECTION==END------------------
+-------------------PORTFOLIO=SECTION==END------------------ */
+
+
+
+
+/* ----------------PROJECTS=SECTION==START----------------
+-------------------PROJECTS=SECTION==START-----------------
+-------------------PROJECTS=SECTION==START------------------
+-------------------PROJECTS=SECTION==START------------------ */
+.projects .container{
+    padding-left: 100px;
+    flex-wrap: wrap;
+}
+.card{
+    border: none;
+    margin-top: 100px;
+    width: 300px;
+    padding: 30px 25px;
+}
+.card .icon a{
+    text-decoration: none;
+    /* color: #f3e272; */
+    color: #27272a3b;
+}
+.card .icon i{
+    font-size: 40px;
+}
+.card .project-name span{
+    font-size: 17px;
+    font-weight: 650;
+    color: #27272A;
+
+}
+.card .text p{
+    color: #27272aa1;
+}
+.card .link i{
+    color: #27272a94;
+}
+.card .link a{
+    padding: 0px 20px 0px 0px;
+    text-decoration: none;
+    color: #27272a94;
+    
+
+}
+.card .link p{
+    color: #27272aad;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 2px;
+}
+.card:hover{
+    background-color: #e4e4e74a;
+    border-radius: 20px;
+    
+}
+/* ----------------PROJECTS=SECTION==END----------------
+-------------------PROJECTS=SECTION==END-----------------
+-------------------PROJECTS=SECTION==END------------------
+-------------------PROJECTS=SECTION==END------------------ */
+
+
+/* ----------------ARTICLE_WORK=SECTION==START----------------
+-------------------ARTICLE_WORK=SECTION==START-----------------
+-------------------ARTICLE_WORK=SECTION==START------------------
+-------------------ARTICLE_WORK=SECTION==START------------------ */
+
+.article-work .container{
+    padding: 0px 100px;
+    flex-wrap: wrap;
+
+}
+.article-work .card .title{
+    padding: 6px 0px;
+}
+.article-work .card{
+    width: 500px;
+}
+.article-work .card .title span{
+    color: #1cb7eb;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 17px;
+}
+.article-work .card .date span{
+    color: #acacb4;
+}
+.article-work .card .text{
+    width: 400px;
+}
+.article-work .card .text p{
+    font-weight: 350;
+    font-size: 14px;
+}
+.article-work .card .read-btn a{
+    text-decoration: none;
+    color: #14b8a6;
+    
+}
+.article-work .card .read-btn i{
+    padding: 0px 5px;
+    
+}
+#work-time .card{
+    padding: 20px 30px;
+    border: 0.5px solid #65656d1d;
+    border-radius: 20px;
+}
+#work-time .card:hover{
+    background-color: transparent;
+
+}
+#work-time .icon i{
+    font-size: 14px;
+    color: #27272a9f;
+    display: flex;
+    align-items: center;
+
+}
+#work-time .icon p{
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+    padding-left: 19px;
+    font-weight: 450;
+    font-size: 14px;
+    color: #65656d;
+}
+.company-name .icon i{
+    color: white;
+    background-color: #3a559f;
+    border-radius: 50%;
+    border: 2px solid rgb(162, 162, 162);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.mission-year .year{
+    margin-left: 150px;
+}
+.company-name .icon #twit{
+    background-color: #1cb7eb;
+    width: 30px;
+    height: 30px;
+}
+
+
+/* ----------------ARTICLE_WORK=SECTION==END----------------
+-------------------ARTICLE_WORK=SECTION==END-----------------
+-------------------ARTICLE_WORK=SECTION==END------------------
+-------------------ARTICLE_WORK=SECTION==END------------------ */
+
+
+
+
+
+/* ---------------FOOTER_START----------------------
+------------------FOOTER_START----------------------
+------------------FOOTER_START------------------------
+------------------FOOTER_START------------------------ */
+footer{
+    padding: 20px 48px;
+    margin-top: 50px;
+    border-top: 1px solid #65656d;
+
+}
+footer .container{
+    margin-left: 50px;
+}
+footer nav a{
+    padding: 0px 20px;
+    text-decoration: none;
+    color: #65656d;
+    transition: ease-in-out 0.2s;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+footer nav a:hover{
+    color: #14b8a6;
+
+}
+/* ---------------FOOTER_END----------------------
+------------------FOOTER_END----------------------
+------------------FOOTER_END------------------------
+------------------FOOTER_END------------------------ */
